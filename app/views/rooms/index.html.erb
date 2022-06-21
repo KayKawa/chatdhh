@@ -11,4 +11,4 @@
   <% end %>
 </div>
 
-<%= link_to "New room", new_room_path %>
+<%= turbo_frame_tag 'new_room', src: new_room_path, target: :_top %>
